@@ -1,0 +1,10 @@
+This is my own distribution of TempleOS by Terry Davis. See the main site at <http://templeos.org> for proper documentation of the OS. You might find the write-up of my experiments with TempleOS over at <http://blog.muflax.com/hack/templeos> useful and, maybe, entertaining.
+
+> For it is written, "As I live, says the Lord, every knee will bow to me, and every tongue will give praise to God." Therefore, each of us will give an account of himself to God. -- Romans 14:11-12
+
+Changes I've made:
+
+1. Added code to git repo so I can keep track of and easily distribute my additions. Everything remains public domain, of course.
+
+2. Because TempleOS doesn't have networking and fiddling with disk images is annoying, the best way to transfer data is to modify the boot image directly. This is why, instead of some isolated code, you get this whole distribution instead. There is a new directory, `ExtraEcclesiam`, which contains all non-TempleOS code, including a shell build script for the .iso.
+
