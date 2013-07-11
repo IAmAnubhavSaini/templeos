@@ -1,0 +1,30 @@
+
+              TempleOS V1.01
+                         
+
+
+
+
+
+
+
+
+
+                   $SP+BP,"",1,"::/TempleOS/Demo/Graphics/Logo.CPP,1"$
+
+
+
+
+
+
+
+
+
+
+
+
+
+              Public Domain
+            Operating System
+
+            $LK,"Trivial Solutions","FI:::/TempleOS/Doc/TrivialSolutions.TXT"$
