@@ -11,7 +11,7 @@ $LK+BI,"AsmStoreCodeU8            ","FL:D:/TempleOS/Compiler/Assembler.CPP.Z,61"
 $LK+BI,"AsmStoreCodeU8At          ","FL:D:/TempleOS/Compiler/Assembler.CPP.Z,168",11$000000A508    0016 00000000A0 Funct  
 $LK+BI,"AsmStoreNum               ","FL:D:/TempleOS/Compiler/Assembler.CPP.Z,668",12$000000B988    0004 000000060E Funct  
 $LK+BI,"AsmUnresolvedAdd          ","FL:D:/TempleOS/Compiler/Assembler.CPP.Z,1",13$0000009F40    0008 00000000DF Funct  
-$LK,"CInternalType             ","FL:D:/TempleOS/Compiler/CmpInit.CPP.Z,4"$007FC9AAF0    0002 000000000A Class 
+$LK,"CInternalType             ","FL:D:/TempleOS/Compiler/CmpInit.CPP.Z,4"$007FC9C358    0002 000000000A Class 
 CMP_OPT_NOP               0000000000    0003            ExportSysSym 
 $LK,"CMP_TEMPLATES             ","FL:D:/TempleOS/Compiler/CmpAsm.CPP.Z,161"$0000000216    0001            ExportSysSym  
 $LK,"CMP_TEMPLATES_DONT_POP    ","FL:D:/TempleOS/Compiler/CmpAsm.CPP.Z,335"$00000003AB    0001            ExportSysSym  
