@@ -5,17 +5,17 @@
 //if the window mgr used it's own
 //heap, so we use the owning task's heap.
   U8 *st=MAlloc(64,mem_task);
-  CDate spdt=tS*CDATE_FREQ;
+  CDate cdt=tS*CDATE_FREQ;
   //Doesn't have to be fixed width!!
-  SPrintF(st,"%d=%h11T",spdt,spdt);
+  SPrintF(st,"%d=%h11T",cdt,cdt);
   return st;
 }
 
 U8 *CurTimeCB(CDoc *,CDocEntry *,CTask *mem_task)
 {
   U8 *st=MAlloc(64,mem_task);
-  CDate spdt=GetCurTimeCDate;
-  SPrintF(st,"%h0D %h0T",spdt,spdt);
+  CDate cdt=GetCurTimeDate;
+  SPrintF(st,"%h0D %h0T",cdt,cdt);
   return st;
 }
 
@@ -39,7 +39,7 @@ U0 DoIt()
 // The TC flag is "has tag callback".
 
 // Flags are explained here:
-//	$LK-A,"::/TempleOS/Doc/CtrlL.TXT"$
+//	$LK-A,"::/TempleOS/Doc/Widget.TXT"$
 //	$LK-A,"::/TempleOS/Doc/Dollar.TXT"$
 //	$LK,"Dollar Flags","MN:DOCEf1_AUX_STR"$
 //	$LK,"ST_DOC_FLAGS","FF:::/TempleOS/Adam/Doc/Doc.CPP,ST_DOC_FLAGS"$
@@ -71,8 +71,7 @@ U0 DoIt()
 U0 UndoIt()
 {
 //Clear-out entries without a +H hold flag.
-  DocBottom(Fs->border_doc);
-  DocPutS(Fs->border_doc,"$$CL$$");
+  DocClear(Fs->border_doc);
 }
 
 

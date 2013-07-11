@@ -1,0 +1,30 @@
+
+$TX+CX+D,"TempleOS VDD_TEMPLEOS_VERSION","DD_OS_NAME_VERSION"$
+                         
+
+
+
+
+
+
+
+
+
+                   $SP+BP,"",1,"::/TempleOS/Demo/Graphics/Logo.CPP,1"$
+
+
+
+
+
+
+
+
+
+
+
+
+
+              Public Domain
+            Operating System
+
+            $LK,"Trivial Solutions","FI:::/TempleOS/Doc/TrivialSolutions.TXT"$

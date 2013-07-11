@@ -43,7 +43,7 @@ U0 DataDemo()
 //  doc->flags|=DOCF_FORM
 //if you wish.
 
-  Spawn(&UpdateGlblTask,NULL,"Update Glbl",Fs);
+  Spawn(&UpdateGlblTask,NULL,"Update Glbl",,Fs);
 
   "Enter editor overstrike mode\n"
   "and you can modify the val.\n"
